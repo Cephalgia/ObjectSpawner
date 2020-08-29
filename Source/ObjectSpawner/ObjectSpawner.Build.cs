@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class AdvancedLevelStreaming : ModuleRules
+public class ObjectSpawner : ModuleRules
 {
-	public AdvancedLevelStreaming(ReadOnlyTargetRules Target) : base(Target)
+	public ObjectSpawner(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
