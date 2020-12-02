@@ -27,7 +27,8 @@ public class ObjectSpawner : ModuleRules
 			{
 				"Core",
                 "Engine",
-				"SomnambulicCore"
+				"SomnambulicCore",
+				"AdvancedLevelStreaming"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

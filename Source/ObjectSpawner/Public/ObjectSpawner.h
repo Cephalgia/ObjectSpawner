@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FObjectSpawnerodule : public IModuleInterface
+class FObjectSpawnerModule : public IModuleInterface
 {
 public:
 

@@ -24,7 +24,7 @@ void FObjectSpawnerModule::StartupModule()
 		ISettingsSectionPtr SettingsSection = SettingsModule->RegisterSettings("Project", "Plugins", "ObjectSpawner Settings",
 			LOCTEXT("RuntimeGeneralSettingsName", "ObjectSpawner Settings"),
 			LOCTEXT("RuntimeGeneralSettingsDescription", "Base configuration for ObjectSpawner"),
-			GetMutableDefault<UALSConfig>()
+			GetMutableDefault<UObjectSpawnerConfig>()
 		);
 	}
 }
